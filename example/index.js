@@ -1,5 +1,18 @@
 "use strict";
 
-const bloggifyAdapter = require("../lib");
+const BloggifyAdapter = require("../lib");
 
-console.log(bloggifyAdapter());
+// Extend a class from the BloggifyAdapter class
+class MyAdapter extends BloggifyAdapter {
+    getArticleById (id, cb) {
+        cb(null, {
+            id: id
+        });
+    }
+}
+
+// Create a new instance of this adapter.
+let adapter = new MyAdapter();
+
+adapter.getArticleById(123, (err, data) => console.log(err || data));
+// => { id: 123 }
