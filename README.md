@@ -1,7 +1,7 @@
 
 # bloggify-adapter
 
- [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/bloggify-adapter.svg)](https://www.npmjs.com/package/bloggify-adapter) [![Downloads](https://img.shields.io/npm/dt/bloggify-adapter.svg)](https://www.npmjs.com/package/bloggify-adapter) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Version](https://img.shields.io/npm/v/bloggify-adapter.svg)](https://www.npmjs.com/package/bloggify-adapter) [![Downloads](https://img.shields.io/npm/dt/bloggify-adapter.svg)](https://www.npmjs.com/package/bloggify-adapter)
 
 > The base class for Bloggify adapters.
 
@@ -34,6 +34,15 @@ let adapter = new MyAdapter();
 adapter.getArticleById(123, (err, data) => console.log(err || data));
 // => { id: 123 }
 ```
+
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 ## :memo: Documentation
 
@@ -168,14 +177,17 @@ Delete multiple pages.
 Have an idea? Found a bug? See [how to contribute][contributing].
 
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`bloggify-markdown-adapter`](https://github.com/IonicaBizau/bloggify-markdown-adapter#readme)—Markdown adapter for Bloggify.
+
 ## :scroll: License
 
-[MIT][license] © [Ionică Bizău][website]
+[MIT][license] © [Bloggify][website]
 
-[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
-[donate-now]: http://i.imgur.com/6cMbHOC.png
-
-[license]: http://showalicense.com/?fullname=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica%40gmail.com%3E%20(http%3A%2F%2Fionicabizau.net)&year=2016#license-mit
-[website]: http://ionicabizau.net
+[license]: http://showalicense.com/?fullname=Bloggify%20%3Csupport%40bloggify.org%3E%20(https%3A%2F%2Fbloggify.org)&year=2016#license-mit
+[website]: https://bloggify.org
 [contributing]: /CONTRIBUTING.md
 [docs]: /DOCUMENTATION.md
