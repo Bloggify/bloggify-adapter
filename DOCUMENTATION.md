@@ -7,6 +7,7 @@ The BloggifyAdapter base class. All the methods are abstract. They should
 be overridden in custom adapters.
 
 #### Params
+
 - **Bloggify** `bloggify`: The `Bloggify` instance.
 
 ### `getArticleById(id, cb)`
@@ -15,6 +16,7 @@ Get an article by id.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **String** `id`: The article id.
 - **Function** `cb`: The callback function.
 
@@ -24,6 +26,7 @@ Search articles by a query.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **Object** `query`: The search query.
 - **Function** `cb`: The callback function.
 
@@ -33,6 +36,7 @@ Create a new article.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **String** `title`: The article title.
 - **String** `content`: The article content.
 - **Object** `custom`: Custom metadata about the article.
@@ -44,6 +48,7 @@ Save an article.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **String** `id`: The article id.
 - **String** `title`: The article title.
 - **String** `content`: The article content.
@@ -56,6 +61,7 @@ Delete an article.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **String** `id`: The article id.
 - **Function** `cb`: The callback function.
 
@@ -65,6 +71,7 @@ Delete multiple articles.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **Array** `ids`: An array of article ids.
 - **Function** `cb`: The callback function.
 
@@ -74,6 +81,7 @@ Get a page by slug.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **String** `slug`: The page slug.
 - **Function** `cb`: The callback function.
 
@@ -83,6 +91,7 @@ Get pages by a query.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **Object** `query`: The query.
 - **Function** `cb`: The callback function.
 
@@ -92,6 +101,7 @@ Create a page.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **String** `title`: The article title.
 - **String** `content`: The article content.
 - **Object** `custom`: Custom metadata about the article.
@@ -103,6 +113,7 @@ Save a page.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **String** `title`: The article title.
 - **String** `content`: The article content.
 - **Object** `custom`: Custom metadata about the article.
@@ -114,6 +125,7 @@ Delete a page.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **String** `slug`: The page slug.
 - **Function** `cb`: The callback function.
 
@@ -123,6 +135,7 @@ Delete multiple pages.
 **Note this method should be overridden in your custom adapter.**
 
 #### Params
+
 - **Array** `slugs`: An array of page slugs.
 - **Function** `cb`: The callback function.
 
