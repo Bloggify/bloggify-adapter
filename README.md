@@ -50,13 +50,9 @@ There are few ways to get help:
 ## :memo: Documentation
 
 
-### `BloggifyAdapter(bloggify)`
+### `BloggifyAdapter()`
 The BloggifyAdapter base class. All the methods are abstract. They should
 be overridden in custom adapters.
-
-#### Params
-
-- **Bloggify** `bloggify`: The `Bloggify` instance.
 
 ### `getArticleById(id, cb)`
 Get an article by id.
