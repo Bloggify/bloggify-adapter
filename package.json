@@ -27,9 +27,12 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json"
   ],
   "dependencies": {
+    "bloggify-viewer": "^1.0.4",
     "err": "^2.1.3"
   },
   "homepage": "https://github.com/Bloggify/bloggify-adapter#readme",
